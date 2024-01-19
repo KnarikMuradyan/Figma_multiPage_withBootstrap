@@ -1,0 +1,246 @@
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 40px;
+}
+
+.logo .image {
+    width: 50px;
+}
+
+.logo {
+    display: flex;
+    text-transform: uppercase;
+}
+
+main .heading-section {
+    background-color: rgb(248, 241, 241);
+    border-radius: 30px;
+    margin: 0 60px;
+    padding: 30px;
+    background-image: url("../images/Star\ 11.png"), url("../images/Star\ 11.png");
+    background-position: top right, center 40px, 550px 355px;
+    background-size: contain, 22px, 22px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+ 
+#girl {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    pointer-events: none;
+    transition: 5s;
+}
+main .heading-section .heading-text {
+    font-size: 72px;
+    font-weight: bold;
+    width: 300px;
+}
+
+.bg-white-mv,
+.bg-yellow-mv {
+    position: relative;
+    z-index: 1;
+    margin: 5px 0;
+
+}
+
+.bg-white-mv::after,
+.bg-yellow-mv::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-3deg);
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.bg-white-mv::after {
+    background-color: white;
+}
+
+.bg-yellow-mv::after {
+    background-color: #E6C744;
+}
+
+.partners {
+    background-color: #EBD96B;
+}
+
+.partners .row {
+    align-items: center;
+    padding: 20px;
+}
+
+.partners img {
+    object-fit: contain;
+}
+
+.partners .image {
+    height: 30px;
+}
+
+.sale {
+    background-image:
+        linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    background-position: top left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    position: relative;
+    /* height: 50% */
+
+}
+ 
+ 
+#secondgirl{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    pointer-events: none;
+    transition: 5s;
+    object-fit: contain;
+}
+
+
+.sale h2 {
+    /* width: 80%; */
+    font-size: 68px;
+    font-weight: bold;
+
+}
+
+section .heading {
+    background-image: url("../images/Vector 9.png");
+    background-size: 50%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    font-weight: bold;
+    margin: 70px 0;
+
+}
+
+.texts {
+    position: relative;
+
+}
+
+.texts::after {
+    content: "\2192";
+    position: absolute;
+    left: 0;
+    font-size: 30px;
+    top: 10px;
+}
+
+.flex {
+    display: flex;
+}
+
+.mobileApp .image {
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.mobileApp img {
+    position: relative;
+    z-index: 1;
+}
+
+.mobileApp .image .rect {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgb(207, 203, 203);
+    border-radius: 50%;
+    left: -50px;
+    top: 60px;
+
+}
+
+.mobileApp .image .rect:nth-child(2) {
+    width: 350px;
+    height: 350px;
+    left: -25px;
+    top: 85px;
+}
+
+.mobileApp .image .rect:nth-child(3) {
+    width: 300px;
+    height: 300px;
+    left: 0;
+    top: 110px;
+}
+.menu_item .image{
+    transition: 3s;
+    overflow: hidden;
+
+ }
+
+ .menu_item  .image img{
+    transition: all 1.3s
+ }
+.menu_item .image img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+    transition: 3s;
+    border-radius:30px
+}
+
+.app .row {
+    align-items: center;
+}
+
+.app .app-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* BY MEE */
+main .yellow {
+    padding: 50px;
+    background-color: #E6C744;
+    text-align: center;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #E6C744;
+    color: black;
+}
+
+footer img {
+    padding: 15px;
+}
+
+footer h2 {
+    font-weight: bold;
+}
+
+footer {
+    padding: 50px;
+    background-color: black;
+    color: white;
+}
+
+footer .row .item p {
+    color: #787878;
+}
+
+footer .row .item .grey {
+    color: #D9D9D9;
+}
+/* header a:hover{color:black ;} */

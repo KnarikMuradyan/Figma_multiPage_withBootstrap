@@ -1,0 +1,27 @@
+{
+  "name": "figma-project",
+  "version": "0.1.0",
+  "description": "figma project by Knar",
+  "main": "index.js",
+  "scripts": {
+    "serve": "json-server --watch db.js --port 8888"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KnarikMuradyan/specified.git"
+  },
+  "keywords": [
+    "web",
+    "front-end",
+    "figma-project"
+  ],
+  "author": "Knarik Muradyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KnarikMuradyan/specified/issues"
+  },
+  "homepage": "https://github.com/KnarikMuradyan/specified#readme",
+  "devDependencies": {
+    "json-server": "^0.17.4"
+  }
+}
